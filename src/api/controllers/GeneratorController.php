@@ -11,7 +11,7 @@ class GeneratorController extends Controller
 	
 	public function actions() {
 		$result['generate'] = [
-			'class' => 'yii2lab\domain\rest\UniAction',
+			'class' => 'yii2lab\rest\domain\rest\UniAction',
 			'serviceMethod' => 'generate',
 			'serviceMethodParams' => ['text'],
 		];

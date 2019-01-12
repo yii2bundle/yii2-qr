@@ -2,7 +2,7 @@
 
 namespace yii2lab\qr\domain\services;
 
-use yii2lab\domain\services\BaseService;
+use yii2lab\domain\services\base\BaseService;
 use yii\web\NotFoundHttpException;
 use yii2lab\qr\domain\interfaces\services\GeneratorInterface;
 
