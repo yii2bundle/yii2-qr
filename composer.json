@@ -12,7 +12,9 @@
 	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
-			"yii2lab\\qr\\": "src"
+			"yii2lab\\qr\\": "src",
+			"yii2bundle\\qr\\": "src",
+			"yii2bundle\\qr\\tests\\": "tests"
 		}
 	},
 	"require": {
