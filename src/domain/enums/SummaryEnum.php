@@ -2,7 +2,7 @@
 
 namespace yii2lab\qr\domain\enums;
 
-use yii2lab\extension\enum\base\BaseEnum;
+use yii2rails\extension\enum\base\BaseEnum;
 
 class SummaryEnum extends BaseEnum {
 

@@ -2,17 +2,17 @@
 
 namespace yii2lab\qr\domain\repositories\file;
 
-use yii2lab\domain\BaseEntity;
-use yii2lab\extension\flySystem\repositories\base\BaseFlyRepository;
-use yii2lab\extension\common\helpers\TempHelper;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\BaseEntity;
+use yii2rails\extension\flySystem\repositories\base\BaseFlyRepository;
+use yii2rails\extension\common\helpers\TempHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii2lab\qr\domain\entities\QrEntity;
-use yii2lab\domain\repositories\BaseRepository;
+use yii2rails\domain\repositories\BaseRepository;
 use dosamigos\qrcode\lib\Enum;
 use dosamigos\qrcode\QrCode;
 use yii2lab\qr\domain\interfaces\repositories\GeneratorInterface;
 use yii2lab\qr\domain\enums\SummaryEnum;
-use yii2lab\app\domain\helpers\EnvService;
+use yii2rails\app\domain\helpers\EnvService;
 
 class GeneratorRepository extends BaseFlyRepository implements GeneratorInterface {
 	

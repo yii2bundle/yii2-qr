@@ -3,8 +3,8 @@
 namespace yii2lab\qr\domain\entities;
 
 use yii\base\InvalidArgumentException;
-use yii2lab\app\domain\helpers\EnvService;
-use yii2lab\domain\BaseEntity;
+use yii2rails\app\domain\helpers\EnvService;
+use yii2rails\domain\BaseEntity;
 use Yii;
 use yii\helpers\FileHelper;
 use yii2lab\qr\domain\enums\SummaryEnum;

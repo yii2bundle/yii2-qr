@@ -2,7 +2,7 @@
 
 namespace yii2lab\qr\domain\interfaces\repositories;
 
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 
 interface GeneratorInterface {
 	

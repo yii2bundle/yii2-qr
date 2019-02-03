@@ -2,10 +2,10 @@
 
 namespace yii2lab\qr\domain\repositories\ar;
 
-use yii2lab\domain\interfaces\repositories\CrudInterface;
-use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
+use yii2rails\domain\interfaces\repositories\CrudInterface;
+use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 use yii2lab\qr\domain\entities\QrEntity;
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 use Yii;
 use yii\db\ActiveRecord;
 use yii2lab\qr\domain\interfaces\repositories\CacheInterface;
